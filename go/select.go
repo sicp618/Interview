@@ -2,10 +2,13 @@ package main
 
 import (
 	"fmt"
+	"math"
 	"time"
 )
 
 func fib(c, quit chan int) {
+	math.Abs(15)
+	math.Max()
 	x, y := 0, 1
 	// sleep 1s
 	for {
